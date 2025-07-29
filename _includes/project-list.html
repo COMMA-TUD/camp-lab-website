@@ -12,13 +12,13 @@
   | reverse
 %}
 
-{% if include.style != "expand" %}
+{% if include.style != "expand" and include.glider == false %}
   <div class="project-excerpt-container">
 {% endif %}
 {% for year in years %}
   {% assign data = year.items %}
 
-  {% if include.style == "expand" %}
+  {% if include.style == "expand" and include.glider == false %}
     {% if years.size > 1 %}
       {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
       {% assign data = data | sort: "date" | reverse %}
@@ -35,6 +35,7 @@
 
     {%
       include {{ include.component | append: ".html" }}
+      glider=include.glider
       buttons=d.buttons
       content=d.content
       end_date=d.end_date
@@ -56,10 +57,10 @@
       url=d.url
     %}
   {% endfor %}
-  {% if include.style == "expand" %}
+  {% if include.style == "expand" and include.glider == false %}
     </div>
   {% endif %}
 {% endfor %}
-{% if include.style != "expand" %}
+{% if include.style != "expand" and include.glider == false %}
   </div>
 {% endif %}

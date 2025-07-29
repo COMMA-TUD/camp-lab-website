@@ -14,7 +14,7 @@ tags:
 ---
 
 <!-- excerpt start -->
-The **Delft TapeLab** is a unique open research facility for unidirectional thermoplastic tapes and their applications. Its mission is to advance knowledge and innovation of unidirectional tapes and their applications through collaborative research at the intersection of materials science, advanced processing technologies and digitalization.
+The [**Delft TapeLab**](https://www.tudelft.nl/lr/delft-tapelab/) is a unique open research facility for unidirectional thermoplastic tapes and their applications. Its mission is to advance knowledge and innovation of unidirectional tapes and their applications through collaborative research at the intersection of materials science, advanced processing technologies and digitalization.
 <!-- excerpt end -->
 
 At **Delft TapeLab**, we address research questions on knowledge and control of microstructural features of advanced composites for enhanced performance, for added multifunctionality, for increased automation performance as well as for novel sustainable materials technologies.

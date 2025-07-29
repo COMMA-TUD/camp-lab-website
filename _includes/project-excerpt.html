@@ -11,6 +11,9 @@
 {% assign url = project.url | relative_url | uri_escape %}
 {% assign title = project.title %}
 {% assign image = project.image | relative_url | uri_escape %}
+{% if include.glider %}
+<div class="glide__slide">
+{% endif %}
 <div class="project-excerpt-card" data-style="{{ include.style }}">
   
   <a
@@ -58,3 +61,6 @@
     </p>
   </div>
 </div>
+{% if include.glider %}
+</div>
+{% endif %}

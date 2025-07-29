@@ -3,7 +3,7 @@
   ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
   ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
 
-  # COMMA-TUD's Website
+  # The CAMP Lab Website
 
   Visit **[camp-lab.org](https://camp-lab.org)** 🚀
 
